@@ -73,7 +73,7 @@ def _default_config(config_dir=None):
     #         pass
 
     c = get_config()
-    c.Plugins.dirs = [r'{}']
+    c.Plugins.dirs = [r'~/MLtoolbox/SpikeSorting/phy-contrib/phycontrib/views/'] #[r'{}']
     # Default set of template-gui plugins for HukLab fork:
     c.TemplateGUI.plugins = ['AmplitudeHistogram', 'FeatureTemplateTimeView', 'ExportMeanWaveforms', 'ExportSNRs', 'ChannelExportUpdate', 'SpikeHeight']
     # ...these should all be located within the forked phy-contrib repo linked as a submodule to SpikeSorting, in:
